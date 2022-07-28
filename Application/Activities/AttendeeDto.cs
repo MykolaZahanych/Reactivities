@@ -1,11 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Application.Interfaces.Profiles
+namespace Application.Activities
 {
-    public class Profile
+    public class AttendeeDto
     {
         public string Username { get; set; }
         public string DisplayName { get; set; }
